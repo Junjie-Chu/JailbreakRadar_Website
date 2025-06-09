@@ -22,18 +22,15 @@ sectionid: home
         <div class="col-md-6">
             <h2 class="header-light regular-pad" style="font-size: 40px;">Abstract</h2>
               <p class="lead">
-              <i>Jailbreak attacks</i> aim to bypass the LLMs' safeguards.
-              While researchers have proposed different jailbreak attacks in depth, they have done so in isolation---either with unaligned settings or comparing a limited range of methods.
-              To fill this gap, we present a large-scale evaluation of various jailbreak attacks.
+              In this project, we present a large-scale evaluation of various <i>jailbreak attacks</i>.
               We collect 17 representative jailbreak attacks, summarize their features, and establish a novel jailbreak attack taxonomy.
               Then we conduct comprehensive measurement and ablation studies across nine aligned LLMs on 160 forbidden questions from 16 violation categories.
               Also, we test jailbreak attacks under eight advanced defenses.
-              Based on our taxonomy and experiments, we identify some important patterns.
-              For example, we find that <strong>heuristic-based</strong> attacks could achieve high attack success rates but are very easy to mitigate by defenses, causing low practicality.
+              We identify some important patterns, such as <strong>heuristic-based</strong> attacks could achieve high attack success rates but are very easy to mitigate by defenses, causing low practicality.
               </p>
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ "/assets/img/overview.png" | relative_url }}" alt="Overview" class="img-responsive" width="80%" style="margin-top: 40px; margin-left: 40px;">
+            <img src="{{ "/assets/img/overview.png" | relative_url }}" alt="Overview" class="img-responsive" width="90%" style="margin-top: 40px; margin-left: 40px;">
         </div>
     </div>
     <hr>
