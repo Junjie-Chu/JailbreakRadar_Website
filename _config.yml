@@ -3,16 +3,16 @@
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
 
 # Site settings
-title: Comprehensive Assessment of Jailbreak Attacks Against LLMs
+title: JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs
 email: junjie.chu@cispa.de
 description: >
-  The website for Comprehensive Assessment of Jailbreak Attacks Against LLMs.
+  The website for "JailbreakRader: Comprehensive Assessment of Jailbreak Attacks Against LLMs."
 lang: en-US
 
-baseurl: "/Public_Comprehensive_Assessment_Jailbreak/" # the subpath of your site, e.g. /blog/
-url: https://junjie-chu.github.io/Public_Comprehensive_Assessment_Jailbreak/ # the base hostname & protocol for your site
-git_address: https://github.com/Junjie-Chu/Public_Comprehensive_Assessment_Jailbreak/
-git_edit_address: https://github.com/Junjie-Chu/Public_Comprehensive_Assessment_Jailbreak/blob/gh-pages
+baseurl: "/JailbreakRadar_Website/" # the subpath of your site, e.g. /blog/
+url: https://junjie-chu.github.io/JailbreakRadar_Website/ # the base hostname & protocol for your site
+git_address: https://github.com/Junjie-Chu/JailbreakRadar_Website/
+git_edit_address: https://github.com/Junjie-Chu/JailbreakRadar_Website/blob/gh-pages
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
