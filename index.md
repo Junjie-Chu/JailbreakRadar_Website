@@ -7,7 +7,7 @@ sectionid: home
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>Comprehensive Assessment of Jailbreak Attacks Against LLMs</h1>
+        <h1>JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs</h1>
         <p>
           <br>
         </p>
@@ -22,11 +22,14 @@ sectionid: home
         <div class="col-md-6">
             <h2 class="header-light regular-pad" style="font-size: 40px;">Abstract</h2>
               <p class="lead">
-              <i>Jailbreak attacks</i> aim to bypass the safeguards of LLMs.
-              While researchers have studied different jailbreak attacks in depth, they have done so in isolation - either with unaligned experiment settings or comparing a limited range of methods.
-              To fill this gap, we present the first large-scale measurement of various jailbreak attack methods. 
-              We collect 14 cutting-edge jailbreak methods and establish a jailbreak attack taxonomy.
-              We then conduct a unified and impartial assessment of attack effectiveness based on six popular censored LLMs and 160 questions from 16 violation categories.
+              <i>Jailbreak attacks</i> aim to bypass the LLMs' safeguards.
+              While researchers have proposed different jailbreak attacks in depth, they have done so in isolation---either with unaligned settings or comparing a limited range of methods.
+              To fill this gap, we present a large-scale evaluation of various jailbreak attacks.
+              We collect 17 representative jailbreak attacks, summarize their features, and establish a novel jailbreak attack taxonomy.
+              Then we conduct comprehensive measurement and ablation studies across nine aligned LLMs on 160 forbidden questions from 16 violation categories.
+              Also, we test jailbreak attacks under eight advanced defenses.
+              Based on our taxonomy and experiments, we identify some important patterns.
+              For example, we find that <strong>heuristic-based</strong> attacks could achieve high attack success rates but are very easy to mitigate by defenses, causing low practicality.
               </p>
         </div>
         <div class="col-md-6 text-center">
