@@ -7,7 +7,7 @@ sectionid: home
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1 style="font-size: 2.5em;">JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs</h1>
+        <h1 style="font-size: 4em;"><strong>JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs</strong></h1>
         <p>
           <br>
         </p>
