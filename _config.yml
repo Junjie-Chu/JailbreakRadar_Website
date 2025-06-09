@@ -3,7 +3,7 @@
 remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
 
 # Site settings
-title: JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs
+title: JailbreakRadar
 email: junjie.chu@cispa.de
 description: >
   The website for "JailbreakRader: Comprehensive Assessment of Jailbreak Attacks Against LLMs."
