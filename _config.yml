@@ -9,7 +9,7 @@ description: >
   Website for "JailbreakRader: Comprehensive Assessment of Jailbreak Attacks Against LLMs."
 lang: en-US
 
-baseurl: "/JailbreakRadar_Website/" # the subpath of your site, e.g. /blog/
+baseurl: "/jailbreakradar.github.io/" # the subpath of your site, e.g. /blog/
 url: https://junjie-chu.github.io/JailbreakRadar_Website/ # the base hostname & protocol for your site
 git_address: https://github.com/Junjie-Chu/JailbreakRadar_Website/
 git_edit_address: https://github.com/Junjie-Chu/JailbreakRadar_Website/blob/gh-pages
