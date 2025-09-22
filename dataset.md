@@ -15,8 +15,8 @@ If you find them useful, please consider cite the following:
 ```
 @inproceedings{CLYSBZ25,
 author = {Junjie Chu and Yugeng Liu and Ziqing Yang and Xinyue Shen and Michael Backes and Yang Zhang},
-title = {{JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs}},
-booktitle = {{Annual Meeting of the Association for Computational Linguistics (ACL)}},
+title = {JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs},
+booktitle = {Annual Meeting of the Association for Computational Linguistics (ACL)},
 publisher = {ACL},
 year = {2025}
 }
