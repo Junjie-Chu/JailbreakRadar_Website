@@ -1,10 +1,12 @@
-# Jekyll Doc Theme
+# JailbreakRadar
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+Project website for **JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs** (ACL 2025).
 
-## Guide
-Go to folder ***_docs*** for the guide
+## Local development
 
-## License
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-Released under [the MIT license](LICENSE).
+The project is published from the `gh-pages` branch.

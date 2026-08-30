@@ -1,7 +1,3 @@
-# Configure the remote_theme plugin with the gh-pages branch
-# or the specific tag
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
-
 # Site settings
 title: JailbreakRadar
 email: junjie.chu@cispa.de
@@ -11,9 +7,6 @@ lang: en-US
 
 baseurl: "/jailbreakradar.github.io" # the subpath of your site, e.g. /blog/
 url: https://junjie-chu.github.io # the base hostname & protocol for your site
-git_address: https://github.com/Junjie-Chu/jailbreakradar.github.io/
-git_edit_address: https://github.com/Junjie-Chu/jailbreakradar.github.io/blob/gh-pages
-
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
 bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen readable sandstone simplex slate solar spacelab superhero united yeti
@@ -21,13 +14,9 @@ bootwatch: paper # cerulean cosmo custom cyborg darkly flatly journal lumen read
 # Build settings
 markdown: kramdown
 highlighter: rouge
-# Plugins (previously gems:)
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 exclude:
   - Gemfile
@@ -35,29 +24,9 @@ exclude:
   - .idea/
   - .gitignore
   - README.md
+  - LICENSE
+  - Dockerfile
+  - nginx.conf
   - vendor
+  - .DS_Store
 timezone: Europe/Berlin
-defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
-
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
-
-collections:
-  docs:
-    permalink: /:collection/:path/
-    output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
