@@ -1,4 +1,19 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
+<svg class="logo-filter-defs" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+        <filter id="jailbreakradar-logo-alpha" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
+            <feColorMatrix type="matrix" result="background-key" values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                -0.2126 -0.7152 -0.0722 0 1" />
+            <feComponentTransfer in="background-key" result="transparent-logo">
+                <feFuncA type="table" tableValues="0 0 0.05 0.12 0.25 0.45 0.65 0.82 0.94 1 1" />
+            </feComponentTransfer>
+            <feComposite in="transparent-logo" in2="SourceAlpha" operator="in" />
+        </filter>
+    </defs>
+</svg>
 <nav class="navbar navbar-default navbar-fixed-top" aria-label="Primary navigation">
     <div class="container navbar-container site-shell">
         <div class="navbar-header">
