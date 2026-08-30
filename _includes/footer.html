@@ -1,14 +1,16 @@
 <footer class="footer">
-    <div class="container">
-      <div class="container text-center">
-        <p>© 2025 JailbreakRadar. All rights reserved.</p>
-        <p>Contact: <a href="mailto:jony7chu@gmail.com">jony7chu@gmail.com</a></p>
+    <div class="site-shell footer-inner">
+      <div>
+        <a class="footer-wordmark" href="{{ "/" | relative_url }}">Jailbreak<span>Radar</span></a>
+        <p>A comprehensive assessment of jailbreak attacks against aligned language models.</p>
       </div>
-
-<!--         <p class="text-center">
-            {{ site.title }} {{ site.time | date: '%Y' }} |
-            Powered by <a href="https://github.com/aksakalli/jekyll-doc-theme">Jekyll Doc Theme</a>
-        </p> -->
-        <!-- <p class="text-muted">Place sticky footer content here.</p> -->
+      <div class="footer-links" aria-label="Footer links">
+        <a href="https://arxiv.org/abs/2402.05668">Paper</a>
+        <a href="https://github.com/TrustAIRLab/JailbreakRadar">Code</a>
+        <a href="{{ "/leaderboard" | relative_url }}">Leaderboard</a>
+        <a href="{{ "/dataset" | relative_url }}">Dataset</a>
+        <a href="mailto:jony7chu@gmail.com">Contact</a>
+      </div>
+      <p class="footer-meta">© {{ site.time | date: '%Y' }} JailbreakRadar · TrustAIRLab</p>
     </div>
 </footer>

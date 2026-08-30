@@ -6,11 +6,11 @@ remote_theme: aksakalli/jekyll-doc-theme@gh-pages
 title: JailbreakRadar
 email: junjie.chu@cispa.de
 description: >
-  Website for "JailbreakRader: Comprehensive Assessment of Jailbreak Attacks Against LLMs."
+  Website for "JailbreakRadar: Comprehensive Assessment of Jailbreak Attacks Against LLMs."
 lang: en-US
 
-baseurl: "/jailbreakradar.github.io/" # the subpath of your site, e.g. /blog/
-url: https://junjie-chu.github.io/jailbreakradar.github.io/ # the base hostname & protocol for your site
+baseurl: "/jailbreakradar.github.io" # the subpath of your site, e.g. /blog/
+url: https://junjie-chu.github.io # the base hostname & protocol for your site
 git_address: https://github.com/Junjie-Chu/jailbreakradar.github.io/
 git_edit_address: https://github.com/Junjie-Chu/jailbreakradar.github.io/blob/gh-pages
 

@@ -6,8 +6,6 @@ ruby RUBY_VERSION
 # to use GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 
-bundle update github-pages
-
 # If you have any plugins, put them here!
 # group :jekyll_plugins do
 #    gem "jekyll-feed"
@@ -25,3 +23,6 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+
+# Ruby 3 no longer bundles WEBrick, which Jekyll 3 uses for local previews.
+gem "webrick", "~> 1.8"

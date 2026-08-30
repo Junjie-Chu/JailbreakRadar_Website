@@ -1,5 +1,6 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container navbar-container">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<nav class="navbar navbar-default navbar-fixed-top" aria-label="Primary navigation">
+    <div class="container navbar-container site-shell">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -7,30 +8,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="{{ "/" | relative_url }}">
-                <span><img src="{{ "/assets/img/project_logo.png" | relative_url }}" alt="Project Logo" style="width: 100%;"></span>
+            <a class="navbar-brand" href="{{ "/" | relative_url }}" aria-label="JailbreakRadar home">
+                <img src="{{ "/assets/img/project_logo.png" | relative_url }}" alt="JailbreakRadar">
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='leaderboard' %} class="active" {% endif %}><a href="{{ "/leaderboard" | relative_url }}"><strong>Leaderboard</strong></a></li>
-                <li {% if page.sectionid=='taxonomy' %} class="active" {% endif %}><a href="{{ "/taxonomy" | relative_url }}"><strong>Jailbreak Taxonomy</strong></a></li>
-                <li {% if page.sectionid=='policy' %} class="active" {% endif %}><a href="{{ "/policy" | relative_url }}"><strong>Unified Policy</strong></a></li>
-                <li {% if page.sectionid=='dataset' %} class="active" {% endif %}><a href="{{ "/dataset" | relative_url }}"><strong>Dataset</strong></a></li>
-<!--                 <li {% if page.sectionid=='home' %} class="active" {% endif %}><a href="{{ "/" | relative_url }}">Home</a></li> -->
+                <li {% if page.sectionid=='home' %} class="active" {% endif %}><a href="{{ "/" | relative_url }}">Overview</a></li>
+                <li {% if page.sectionid=='leaderboard' %} class="active" {% endif %}><a href="{{ "/leaderboard" | relative_url }}">Leaderboard</a></li>
+                <li {% if page.sectionid=='taxonomy' %} class="active" {% endif %}><a href="{{ "/taxonomy" | relative_url }}">Taxonomy</a></li>
+                <li {% if page.sectionid=='policy' %} class="active" {% endif %}><a href="{{ "/policy" | relative_url }}">Policy</a></li>
+                <li {% if page.sectionid=='dataset' %} class="active" {% endif %}><a href="{{ "/dataset" | relative_url }}">Dataset</a></li>
             </ul>
             <div class="navbar-right">
-<!--                 <form class="navbar-form navbar-left">
-                    <div class="form-group has-feedback">
-                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
-                        <i class="fa fa-search form-control-feedback"></i>
-                    </div>
-                </form> -->
-                <ul class="nav navbar-nav">
-                    <li><a href="https://github.com/TrustAIRLab/JailbreakRadar"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
-                </ul>
-                <a class="navbar-brand" href="https://github.com/TrustAIRLab">
-                    <span><img src="{{ "/assets/img/TrustAIRLab.png" | relative_url }}" alt="Lab Logo" style="width: 70px; height: auto"></span>
+                <a class="nav-text-link" href="https://arxiv.org/abs/2402.05668">Paper <span aria-hidden="true">↗</span></a>
+                <a class="nav-code-link" href="https://github.com/TrustAIRLab/JailbreakRadar">GitHub <span aria-hidden="true">↗</span></a>
+                <a class="lab-mark" href="https://github.com/TrustAIRLab" aria-label="TrustAIRLab on GitHub">
+                    <img src="{{ "/assets/img/TrustAIRLab.png" | relative_url }}" alt="TrustAIRLab">
                 </a>
             </div>
         </div>
